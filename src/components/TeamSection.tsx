@@ -4,6 +4,25 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
+// Team member images
+import kavyaImg from '@/assets/team/kavya.jpg';
+import kishanImg from '@/assets/team/kishan.jpg';
+import chahatImg from '@/assets/team/chahat.jpg';
+import sathvikaImg from '@/assets/team/sathvika.jpg';
+import tejeswariImg from '@/assets/team/tejeswari.jpg';
+import prernaImg from '@/assets/team/prerna.jpg';
+import sailakshmiImg from '@/assets/team/sailakshmi.jpg';
+import keerthiImg from '@/assets/team/keerthi.jpg';
+import pujyamImg from '@/assets/team/pujyam.jpg';
+import badhrunisaImg from '@/assets/team/badhrunisa.jpg';
+import saratImg from '@/assets/team/sarat.jpg';
+import karthikImg from '@/assets/team/karthik.jpg';
+import hariImg from '@/assets/team/hari.jpg';
+import tejaImg from '@/assets/team/teja.jpg';
+import yaswanthImg from '@/assets/team/yaswanth.jpg';
+import revanthImg from '@/assets/team/revanth.jpg';
+import sowjnyaImg from '@/assets/team/sowjnya.jpg';
+
 const TeamSection = () => {
   const [selectedTeam, setSelectedTeam] = useState('klsat');
 
@@ -14,7 +33,7 @@ const TeamSection = () => {
       name: 'Dr. K. Chilsri Kavya',
       role: 'Faculty Advisor',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: kavyaImg,
       bio: 'Guiding the team with expertise in satellite systems and research.',
       expertise: ['Research', 'Guidance', 'Mentoring'],
       social: {
@@ -28,7 +47,7 @@ const TeamSection = () => {
       name: 'Dadani Kishan Kumar',
       role: 'Team Member',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: kishanImg,
       bio: 'Contributing to satellite mission development and research.',
       expertise: ['Engineering', 'Systems', 'Development'],
       social: {
@@ -42,7 +61,7 @@ const TeamSection = () => {
       name: 'Shaik Chahat Muzasim',
       role: 'Team Member',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: chahatImg,
       bio: 'Contributing to satellite mission development and research.',
       expertise: ['Engineering', 'Development', 'Research'],
       social: {
@@ -56,7 +75,7 @@ const TeamSection = () => {
       name: 'Sathvika Parvathaneni',
       role: 'Team Member',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: sathvikaImg,
       bio: 'Contributing to satellite mission development and research.',
       expertise: ['Satellite Systems', 'Research', 'Development'],
       social: {
@@ -70,7 +89,7 @@ const TeamSection = () => {
       name: 'Gutta Tejeswari',
       role: 'Team Member',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: tejeswariImg,
       bio: 'Contributing to satellite mission development and research.',
       expertise: ['Systems', 'Development', 'Research'],
       social: {
@@ -84,7 +103,7 @@ const TeamSection = () => {
       name: 'Karnapp Prerna',
       role: 'Team Member',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: prernaImg,
       bio: 'Contributing to satellite mission development and research.',
       expertise: ['Engineering', 'Development', 'Research'],
       social: {
@@ -98,7 +117,7 @@ const TeamSection = () => {
       name: 'Pothireddy Sai Lakshmi',
       role: 'Team Member',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: sailakshmiImg,
       bio: 'Contributing to satellite mission development and research.',
       expertise: ['Systems', 'Development', 'Research'],
       social: {
@@ -112,7 +131,7 @@ const TeamSection = () => {
       name: 'Keerthi Vinjamuri',
       role: 'Team Member',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: keerthiImg,
       bio: 'Contributing to satellite mission development and research.',
       expertise: ['Engineering', 'Development', 'Research'],
       social: {
@@ -126,7 +145,7 @@ const TeamSection = () => {
       name: 'Pujyam Bapeswara Rao',
       role: 'Team Member',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: pujyamImg,
       bio: 'Contributing to satellite mission development and research.',
       expertise: ['Systems', 'Development', 'Research'],
       social: {
@@ -140,7 +159,7 @@ const TeamSection = () => {
       name: 'Shaik Badhrunisa',
       role: 'Team Member',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: badhrunisaImg,
       bio: 'Contributing to satellite mission development and research.',
       expertise: ['Engineering', 'Development', 'Research'],
       social: {
@@ -154,7 +173,7 @@ const TeamSection = () => {
       name: 'Dr. K. Sarat Kumar',
       role: 'Faculty Advisor',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: saratImg,
       bio: 'Guiding the team with expertise in satellite systems and research.',
       expertise: ['Research', 'Guidance', 'Mentoring'],
       social: {
@@ -168,7 +187,7 @@ const TeamSection = () => {
       name: 'Kukunuri Sai Karthik',
       role: 'Team Member',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: karthikImg,
       bio: 'Contributing to satellite mission development and research.',
       expertise: ['Engineering', 'Development', 'Research'],
       social: {
@@ -182,7 +201,7 @@ const TeamSection = () => {
       name: 'Murra Hari Narayana',
       role: 'Team Member',
       department: 'KLSAT Team',
-      image: '/placeholder.svg',
+      image: hariImg,
       bio: 'Contributing to satellite mission development and research.',
       expertise: ['Systems', 'Development', 'Research'],
       social: {
@@ -199,7 +218,7 @@ const TeamSection = () => {
       name: 'Vankayala Teja',
       role: 'CanSat Team Member',
       department: 'CanSat Program',
-      image: '/placeholder.svg',
+      image: tejaImg,
       bio: 'Contributing to CanSat mission development and atmospheric research.',
       expertise: ['CanSat Design', 'Atmospheric Research', 'Engineering'],
       social: {
@@ -213,7 +232,7 @@ const TeamSection = () => {
       name: 'Chavva Yaswanth',
       role: 'CanSat Team Member',
       department: 'CanSat Program',
-      image: '/placeholder.svg',
+      image: yaswanthImg,
       bio: 'Contributing to CanSat mission development and atmospheric research.',
       expertise: ['Telemetry', 'Data Systems', 'Engineering'],
       social: {
@@ -227,7 +246,7 @@ const TeamSection = () => {
       name: 'Desagiri Revanth',
       role: 'CanSat Team Member',
       department: 'CanSat Program',
-      image: '/placeholder.svg',
+      image: revanthImg,
       bio: 'Contributing to CanSat mission development and atmospheric research.',
       expertise: ['Recovery Systems', 'Development', 'Engineering'],
       social: {
@@ -241,7 +260,7 @@ const TeamSection = () => {
       name: 'Eddula Sowjnya',
       role: 'CanSat Team Member',
       department: 'CanSat Program',
-      image: '/placeholder.svg',
+      image: sowjnyaImg,
       bio: 'Contributing to CanSat mission development and atmospheric research.',
       expertise: ['Sensor Integration', 'Data Collection', 'Engineering'],
       social: {
@@ -334,8 +353,8 @@ const TeamSection = () => {
                 <Card key={member.id} className="card-3d border-0 group" style={{ animationDelay: `${index * 0.1}s` }}>
                   <CardContent className="p-6 text-center">
                     {/* Avatar */}
-                    <div className="w-24 h-24 mx-auto mb-4 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center text-2xl font-bold text-white group-hover:scale-110 transition-transform duration-300">
-                      {member.name.split(' ').map(n => n[0]).join('')}
+                    <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden border-4 border-primary/20 group-hover:scale-110 transition-transform duration-300 group-hover:border-primary/40">
+                      <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
                     </div>
 
                     {/* Info */}
@@ -382,8 +401,8 @@ const TeamSection = () => {
                 <Card key={member.id} className="card-3d border-0 group" style={{ animationDelay: `${index * 0.1}s` }}>
                   <CardContent className="p-6 text-center">
                     {/* Avatar */}
-                    <div className="w-24 h-24 mx-auto mb-4 bg-gradient-to-r from-secondary to-space-cyan rounded-full flex items-center justify-center text-2xl font-bold text-white group-hover:scale-110 transition-transform duration-300">
-                      {member.name.split(' ').map(n => n[0]).join('')}
+                    <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden border-4 border-secondary/20 group-hover:scale-110 transition-transform duration-300 group-hover:border-secondary/40">
+                      <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
                     </div>
 
                     {/* Info */}
