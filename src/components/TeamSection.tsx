@@ -11,84 +11,238 @@ const TeamSection = () => {
   const klsatTeam = [
     {
       id: 1,
-      name: 'Dr. Rajesh Kumar',
-      role: 'Project Director',
-      department: 'Aerospace Engineering',
+      name: 'Sathvika Parvathaneni',
+      role: 'Team Member',
+      department: 'KLSAT Team',
       image: '/placeholder.svg',
-      bio: 'Leading satellite systems research with 15+ years of experience in CubeSat development.',
-      expertise: ['Satellite Systems', 'Orbital Mechanics', 'Mission Planning'],
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Satellite Systems', 'Research', 'Development'],
       social: {
-        email: 'rajesh.kumar@kle.edu',
+        email: 'sathvika@kle.edu',
         linkedin: '#',
         github: '#'
       }
     },
     {
       id: 2,
-      name: 'Priya Sharma',
-      role: 'Systems Engineer',
-      department: 'Electronics & Communication',
+      name: 'Vankayala Teja',
+      role: 'Team Member',
+      department: 'KLSAT Team',
       image: '/placeholder.svg',
-      bio: 'Specializing in satellite communication systems and RF design for amateur satellite missions.',
-      expertise: ['RF Design', 'Communication Systems', 'Signal Processing'],
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Engineering', 'Systems', 'Development'],
       social: {
-        email: 'priya.sharma@kle.edu',
+        email: 'teja@kle.edu',
         linkedin: '#',
         github: '#'
       }
     },
     {
       id: 3,
-      name: 'Arjun Patel',
-      role: 'Software Lead',
-      department: 'Computer Science',
+      name: 'Dr. K. Chilsri Kavya',
+      role: 'Faculty Advisor',
+      department: 'KLSAT Team',
       image: '/placeholder.svg',
-      bio: 'Developing flight software and ground station automation systems for satellite operations.',
-      expertise: ['Embedded Systems', 'Flight Software', 'Ground Station'],
+      bio: 'Guiding the team with expertise in satellite systems and research.',
+      expertise: ['Research', 'Guidance', 'Mentoring'],
       social: {
-        email: 'arjun.patel@kle.edu',
+        email: 'kavya@kle.edu',
         linkedin: '#',
         github: '#'
       }
     },
     {
       id: 4,
-      name: 'Sneha Reddy',
-      role: 'Payload Specialist',
-      department: 'Physics',
+      name: 'Dadani Kishan Kumar',
+      role: 'Team Member',
+      department: 'KLSAT Team',
       image: '/placeholder.svg',
-      bio: 'Designing and implementing scientific payloads for atmospheric and space environment research.',
-      expertise: ['Payload Design', 'Scientific Instruments', 'Data Analysis'],
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Engineering', 'Systems', 'Development'],
       social: {
-        email: 'sneha.reddy@kle.edu',
+        email: 'kishan@kle.edu',
         linkedin: '#',
         github: '#'
       }
     },
     {
       id: 5,
-      name: 'Vikram Singh',
-      role: 'Mechanical Engineer',
-      department: 'Mechanical Engineering',
+      name: 'Shaik Chahat Muzasim',
+      role: 'Team Member',
+      department: 'KLSAT Team',
       image: '/placeholder.svg',
-      bio: 'Responsible for structural design, thermal management, and mechanical subsystems integration.',
-      expertise: ['Structural Design', 'Thermal Analysis', 'CAD/CAM'],
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Engineering', 'Development', 'Research'],
       social: {
-        email: 'vikram.singh@kle.edu',
+        email: 'chahat@kle.edu',
         linkedin: '#',
         github: '#'
       }
     },
     {
       id: 6,
-      name: 'Ananya Joshi',
-      role: 'Power Systems Engineer',
-      department: 'Electrical Engineering',
+      name: 'Gutta Tejeswari',
+      role: 'Team Member',
+      department: 'KLSAT Team',
       image: '/placeholder.svg',
-      bio: 'Designing efficient power management systems and solar panel configurations for extended missions.',
-      expertise: ['Power Systems', 'Battery Management', 'Solar Panel Design'],
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Systems', 'Development', 'Research'],
       social: {
-        email: 'ananya.joshi@kle.edu',
+        email: 'tejeswari@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 7,
+      name: 'Karnapp Prerna',
+      role: 'Team Member',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Engineering', 'Development', 'Research'],
+      social: {
+        email: 'prerna@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 8,
+      name: 'Pothireddy Sai Lakshmi',
+      role: 'Team Member',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Systems', 'Development', 'Research'],
+      social: {
+        email: 'sailakshmi@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 9,
+      name: 'Keerthi Vinjamuri',
+      role: 'Team Member',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Engineering', 'Development', 'Research'],
+      social: {
+        email: 'keerthi@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 10,
+      name: 'Pujyam Bapeswara Rao',
+      role: 'Team Member',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Systems', 'Development', 'Research'],
+      social: {
+        email: 'pujyam@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 11,
+      name: 'Chavan Yashwanth',
+      role: 'Team Member',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Engineering', 'Development', 'Research'],
+      social: {
+        email: 'yashwanth@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 12,
+      name: 'Desagiri Revanth',
+      role: 'Team Member',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Systems', 'Development', 'Research'],
+      social: {
+        email: 'revanth@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 13,
+      name: 'Shaik Badhrunisa',
+      role: 'Team Member',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Engineering', 'Development', 'Research'],
+      social: {
+        email: 'badhrunisa@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 14,
+      name: 'Dr. K. Sarat Kumar',
+      role: 'Faculty Advisor',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Guiding the team with expertise in satellite systems and research.',
+      expertise: ['Research', 'Guidance', 'Mentoring'],
+      social: {
+        email: 'sarat@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 15,
+      name: 'Kukunuri Sai Karthik',
+      role: 'Team Member',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Engineering', 'Development', 'Research'],
+      social: {
+        email: 'karthik@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 16,
+      name: 'Murra Hari Narayana',
+      role: 'Team Member',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Systems', 'Development', 'Research'],
+      social: {
+        email: 'hari@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 17,
+      name: 'Eddula Sowjnya',
+      role: 'Team Member',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Engineering', 'Development', 'Research'],
+      social: {
+        email: 'sowjnya@kle.edu',
         linkedin: '#',
         github: '#'
       }
@@ -161,7 +315,7 @@ const TeamSection = () => {
   const teamStats = {
     klsat: {
       members: klsatTeam.length,
-      departments: 6,
+      departments: 8,
       projects: 3,
       publications: 12
     },
