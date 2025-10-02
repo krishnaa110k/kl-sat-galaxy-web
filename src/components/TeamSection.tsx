@@ -11,34 +11,6 @@ const TeamSection = () => {
   const klsatTeam = [
     {
       id: 1,
-      name: 'Sathvika Parvathaneni',
-      role: 'Team Member',
-      department: 'KLSAT Team',
-      image: '/placeholder.svg',
-      bio: 'Contributing to satellite mission development and research.',
-      expertise: ['Satellite Systems', 'Research', 'Development'],
-      social: {
-        email: 'sathvika@kle.edu',
-        linkedin: '#',
-        github: '#'
-      }
-    },
-    {
-      id: 2,
-      name: 'Vankayala Teja',
-      role: 'Team Member',
-      department: 'KLSAT Team',
-      image: '/placeholder.svg',
-      bio: 'Contributing to satellite mission development and research.',
-      expertise: ['Engineering', 'Systems', 'Development'],
-      social: {
-        email: 'teja@kle.edu',
-        linkedin: '#',
-        github: '#'
-      }
-    },
-    {
-      id: 3,
       name: 'Dr. K. Chilsri Kavya',
       role: 'Faculty Advisor',
       department: 'KLSAT Team',
@@ -52,7 +24,7 @@ const TeamSection = () => {
       }
     },
     {
-      id: 4,
+      id: 2,
       name: 'Dadani Kishan Kumar',
       role: 'Team Member',
       department: 'KLSAT Team',
@@ -66,7 +38,7 @@ const TeamSection = () => {
       }
     },
     {
-      id: 5,
+      id: 3,
       name: 'Shaik Chahat Muzasim',
       role: 'Team Member',
       department: 'KLSAT Team',
@@ -80,7 +52,21 @@ const TeamSection = () => {
       }
     },
     {
-      id: 6,
+      id: 4,
+      name: 'Sathvika Parvathaneni',
+      role: 'Team Member',
+      department: 'KLSAT Team',
+      image: '/placeholder.svg',
+      bio: 'Contributing to satellite mission development and research.',
+      expertise: ['Satellite Systems', 'Research', 'Development'],
+      social: {
+        email: 'sathvika@kle.edu',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      id: 5,
       name: 'Gutta Tejeswari',
       role: 'Team Member',
       department: 'KLSAT Team',
@@ -94,7 +80,7 @@ const TeamSection = () => {
       }
     },
     {
-      id: 7,
+      id: 6,
       name: 'Karnapp Prerna',
       role: 'Team Member',
       department: 'KLSAT Team',
@@ -108,7 +94,7 @@ const TeamSection = () => {
       }
     },
     {
-      id: 8,
+      id: 7,
       name: 'Pothireddy Sai Lakshmi',
       role: 'Team Member',
       department: 'KLSAT Team',
@@ -122,7 +108,7 @@ const TeamSection = () => {
       }
     },
     {
-      id: 9,
+      id: 8,
       name: 'Keerthi Vinjamuri',
       role: 'Team Member',
       department: 'KLSAT Team',
@@ -136,7 +122,7 @@ const TeamSection = () => {
       }
     },
     {
-      id: 10,
+      id: 9,
       name: 'Pujyam Bapeswara Rao',
       role: 'Team Member',
       department: 'KLSAT Team',
@@ -150,35 +136,7 @@ const TeamSection = () => {
       }
     },
     {
-      id: 11,
-      name: 'Chavan Yashwanth',
-      role: 'Team Member',
-      department: 'KLSAT Team',
-      image: '/placeholder.svg',
-      bio: 'Contributing to satellite mission development and research.',
-      expertise: ['Engineering', 'Development', 'Research'],
-      social: {
-        email: 'yashwanth@kle.edu',
-        linkedin: '#',
-        github: '#'
-      }
-    },
-    {
-      id: 12,
-      name: 'Desagiri Revanth',
-      role: 'Team Member',
-      department: 'KLSAT Team',
-      image: '/placeholder.svg',
-      bio: 'Contributing to satellite mission development and research.',
-      expertise: ['Systems', 'Development', 'Research'],
-      social: {
-        email: 'revanth@kle.edu',
-        linkedin: '#',
-        github: '#'
-      }
-    },
-    {
-      id: 13,
+      id: 10,
       name: 'Shaik Badhrunisa',
       role: 'Team Member',
       department: 'KLSAT Team',
@@ -192,7 +150,7 @@ const TeamSection = () => {
       }
     },
     {
-      id: 14,
+      id: 11,
       name: 'Dr. K. Sarat Kumar',
       role: 'Faculty Advisor',
       department: 'KLSAT Team',
@@ -206,7 +164,7 @@ const TeamSection = () => {
       }
     },
     {
-      id: 15,
+      id: 12,
       name: 'Kukunuri Sai Karthik',
       role: 'Team Member',
       department: 'KLSAT Team',
@@ -220,7 +178,7 @@ const TeamSection = () => {
       }
     },
     {
-      id: 16,
+      id: 13,
       name: 'Murra Hari Narayana',
       role: 'Team Member',
       department: 'KLSAT Team',
@@ -232,76 +190,62 @@ const TeamSection = () => {
         linkedin: '#',
         github: '#'
       }
-    },
-    {
-      id: 17,
-      name: 'Eddula Sowjnya',
-      role: 'Team Member',
-      department: 'KLSAT Team',
-      image: '/placeholder.svg',
-      bio: 'Contributing to satellite mission development and research.',
-      expertise: ['Engineering', 'Development', 'Research'],
-      social: {
-        email: 'sowjnya@kle.edu',
-        linkedin: '#',
-        github: '#'
-      }
     }
   ];
 
   const cansatTeam = [
     {
-      id: 7,
-      name: 'Rohit Gupta',
-      role: 'CanSat Team Lead',
-      department: 'Aerospace Engineering',
+      id: 1,
+      name: 'Vankayala Teja',
+      role: 'CanSat Team Member',
+      department: 'CanSat Program',
       image: '/placeholder.svg',
-      bio: 'Leading the CanSat program development with focus on atmospheric research and educational outreach.',
-      expertise: ['CanSat Design', 'Atmospheric Research', 'Team Leadership'],
+      bio: 'Contributing to CanSat mission development and atmospheric research.',
+      expertise: ['CanSat Design', 'Atmospheric Research', 'Engineering'],
       social: {
-        email: 'rohit.gupta@kle.edu',
+        email: 'teja@kle.edu',
         linkedin: '#',
         github: '#'
       }
     },
     {
-      id: 8,
-      name: 'Kavya Nair',
-      role: 'Parachute Systems',
-      department: 'Mechanical Engineering',
+      id: 2,
+      name: 'Chavva Yaswanth',
+      role: 'CanSat Team Member',
+      department: 'CanSat Program',
       image: '/placeholder.svg',
-      bio: 'Specializing in recovery systems design and parachute deployment mechanisms.',
-      expertise: ['Recovery Systems', 'Parachute Design', 'Deployment Mechanisms'],
+      bio: 'Contributing to CanSat mission development and atmospheric research.',
+      expertise: ['Telemetry', 'Data Systems', 'Engineering'],
       social: {
-        email: 'kavya.nair@kle.edu',
+        email: 'yaswanth@kle.edu',
         linkedin: '#',
         github: '#'
       }
     },
     {
-      id: 9,
-      name: 'Aditya Kulkarni',
-      role: 'Telemetry Engineer',
-      department: 'Electronics Engineering',
+      id: 3,
+      name: 'Desagiri Revanth',
+      role: 'CanSat Team Member',
+      department: 'CanSat Program',
       image: '/placeholder.svg',
-      bio: 'Developing real-time telemetry systems and data transmission protocols for CanSat missions.',
-      expertise: ['Telemetry Systems', 'Data Transmission', 'Real-time Systems'],
+      bio: 'Contributing to CanSat mission development and atmospheric research.',
+      expertise: ['Recovery Systems', 'Development', 'Engineering'],
       social: {
-        email: 'aditya.kulkarni@kle.edu',
+        email: 'revanth@kle.edu',
         linkedin: '#',
         github: '#'
       }
     },
     {
-      id: 10,
-      name: 'Meera Iyer',
-      role: 'Sensor Integration',
-      department: 'Physics',
+      id: 4,
+      name: 'Eddula Sowjnya',
+      role: 'CanSat Team Member',
+      department: 'CanSat Program',
       image: '/placeholder.svg',
-      bio: 'Integrating environmental sensors and developing data collection protocols for atmospheric studies.',
-      expertise: ['Sensor Integration', 'Environmental Monitoring', 'Data Collection'],
+      bio: 'Contributing to CanSat mission development and atmospheric research.',
+      expertise: ['Sensor Integration', 'Data Collection', 'Engineering'],
       social: {
-        email: 'meera.iyer@kle.edu',
+        email: 'sowjnya@kle.edu',
         linkedin: '#',
         github: '#'
       }
